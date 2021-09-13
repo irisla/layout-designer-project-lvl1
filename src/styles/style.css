@@ -1,1 +1,54 @@
 /** CSS STYLE **/
+/* Общие стили */
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Neucha;
+    src: url(fonts/Neucha-Regular.ttf);
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #2A2626;
+    line-height: 1.6em;
+}
+
+.container {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2em;
+    font-family: Neucha;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+/*#######################################################*/
+/* Разделы проекта */
+/* Шапка сайта */
+.header {
+    background: #F5F4F0;
+
+}
