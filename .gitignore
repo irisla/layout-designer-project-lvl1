@@ -1,0 +1,7 @@
+/node_modules/
+.surgeignore
+/.github/
+.editorconfig
+.htmlhintrc
+.stylelintrc
+Makefile
