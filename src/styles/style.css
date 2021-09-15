@@ -26,10 +26,11 @@ body {
 }
 
 header,
-.section,
+section,
 footer {
   width: 1400px;
   margin: 0 auto;
+  width: 1440px;
 }
 
 .container {
@@ -54,6 +55,14 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+.brown-title {
+  color: #fe8a02;
+}
+
+.black-title {
+  color: #2a2626;
 }
 
 /*#######################################################*/
@@ -87,13 +96,13 @@ header h1 {
   top: 100px;
 }
 
-.header .brown-title {
+/* .header .brown-title {
   color: #fe8a02;
-}
+} */
 
-.header .black-title {
+/* .header .black-title {
   color: #2a2626;
-}
+} */
 
 .main-picture {
   position: absolute;
@@ -132,10 +141,8 @@ header h1 {
 .button {
   position: absolute;
   padding: 12px 24px;
-  
-  background: #fe8a02;
 
-  /* display: inline-block; */
+  background: #fe8a02;
 
   width: 148px;
   height: 49px;
@@ -148,9 +155,36 @@ header h1 {
 }
 
 .button a {
+  color: #fff;
   font-weight: 700;
-  text-decoration: none;
-  color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
+/* ####################################################### */
+
+
+/* Секция с видео */
+.video-section {
+  background: #fff;
+  height: 914px;
+}
+
+.video-section-title {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video-section-title h2 {
+margin-bottom: 27px;
+}
+
+.inserting-video {
+top: 329px;
+  text-align: center;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
