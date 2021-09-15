@@ -5,3 +5,4 @@
 .htmlhintrc
 .stylelintrc
 Makefile
+/.vscode/
