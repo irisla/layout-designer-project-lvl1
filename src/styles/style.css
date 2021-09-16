@@ -28,7 +28,7 @@ body {
 }
 
 header, section, footer {
-  width: 1400px;
+  width: 1440px;
   margin: 0 auto;
   width: 1440px;
 }
@@ -60,6 +60,10 @@ h4 {
   line-height: 62px;
   font-weight: 400;
   font-family: Neucha;
+}
+
+h5 {
+  font-size: 14px;
 }
 
 .brown-title {
@@ -196,9 +200,9 @@ header h1 {
 /* Секция с навигацией */
 
 #navigation {
-  width: 1400px;
-  margin: 0 auto;
-  width: 1440px;
+  /* width: 1400px; */
+  /* margin: 0 auto; */
+  /* width: 1440px; */
   background: #42413c;
 }
 
@@ -258,10 +262,70 @@ header h1 {
 }
 
 .card-content {
-padding: 24px;
+  padding: 24px;
 }
 
 /* ####################################################### */
 
 /* Секция "Эффект ИКЕА" */
 
+#ikea-effect {
+  background: #f5f4f0;
+  height: 905px;
+}
+
+.container {
+  width: 1110px;
+}
+
+#ikea-effect .container {
+  column-count: 2;
+  column-gap: 80px;
+  padding: 100px 0;
+}
+
+img {
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.count-1 {
+  font-size: 24px;
+  font-family: Neucha;
+  line-height: 29px;
+  color: #908d8b;
+}
+
+.count-2 {
+  font-family: Neucha;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  color: #2A2626;
+}
+
+.ikea-effect-title {
+  height: 26px;
+  background: #b09a81;
+  column-span: all;
+  font-family: Open Sans;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.ikea-effect-title h5 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.count-4 {
+  height: 125px;
+  break-inside: avoid;
+}
