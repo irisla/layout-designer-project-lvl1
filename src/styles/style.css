@@ -55,12 +55,23 @@ h3 {
   font-size: 34px;
 }
 
+h4 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: Neucha;
+}
+
 .brown-title {
   color: #fe8a02;
 }
 
 .black-title {
   color: #2a2626;
+}
+
+.white-title {
+  color: #f5f4f0;
 }
 
 /*#######################################################*/
@@ -179,3 +190,78 @@ header h1 {
   background: #42413C;
   height: 991px;
 }
+
+/* ####################################################### */
+
+/* Секция с навигацией */
+
+#navigation {
+  width: 1400px;
+  margin: 0 auto;
+  width: 1440px;
+  background: #42413c;
+}
+
+#navigation .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #42413c;
+}
+
+.navigation-section-title {
+  background: #42413c;
+  width: 350px;
+  height: 323px;
+  margin: 100px 30px 20px 0;
+}
+
+.navigation-section-ikea {
+  background: #f5f4f0;
+  width: 350px;
+  height: 323px;
+  margin: 100px 30px 20px 0;
+}
+
+.navigation-section-optimization {
+  background: #f5f4f0;
+  width: 350px;
+  height: 323px;
+  margin: 100px 0 20px 0;
+}
+
+.navigation-section-distortion {
+  background: #f5f4f0;
+  width: 350px;
+  height: 348px;
+  margin-right: 30px;
+}
+
+.navigation-section-depreciation {
+  background: #f5f4f0;
+  width: 350px;
+  height: 348px;
+  margin-right: 30px;
+}
+
+.navigation-section-mistake {
+  background: #f5f4f0;
+  width: 350px;
+  height: 348px;
+}
+
+.card-figure {
+  font-size: 64px;
+  font-family: Neucha;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.card-content {
+padding: 24px;
+}
+
+/* ####################################################### */
+
+/* Секция "Эффект ИКЕА" */
+
