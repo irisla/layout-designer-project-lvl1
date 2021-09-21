@@ -351,12 +351,10 @@ header img {
 }
 
 .lower-left {
-  width: 540px;
   height: 125px;
 }
 
 .lower-right {
-  width: 540px;
   height: 125px;
   break-inside: avoid;
 }
@@ -367,7 +365,7 @@ header img {
 
 #premature-optimization {
   background: #B09A81;
-  min-height: 880px;
+  min-height: 855px;
   position: relative;
 }
 
@@ -429,6 +427,31 @@ header img {
   text-transform: uppercase;
   color: #b09a81;
   padding-left: 10px;
+}
+
+/* ####################################################### */
+
+/* Секция "Искажение новизны" */
+
+#distortion-of-novelty {
+  background: #f5f4f0;
+  height: 880px;
+  position: relative;
+}
+
+#distortion-of-novelty .container {
+  column-count: 2;
+  column-gap: 30px;
+  padding-top: 533px;
+}
+
+#distortion-of-novelty img {
+  position: absolute;
+  top: 100px;
+  left: 272px;
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /* ####################################################### */
