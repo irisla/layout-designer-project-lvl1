@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Когнитивные искажения. Вячеслав Михайлов.</title>
-
   <link rel="stylesheet" href="styles/style.css" />
 </head>
 
@@ -14,51 +13,49 @@
   <header class="header bg-before">
     <h1>
       <span class="brown-title">Когнитивные<br />
-        искажения</span><br />
-      <span class="black-title">в программировании</span>
+        искажения</span><br /> в программировании
     </h1>
+
+    <img class="main-picture" src="styles/images/main.png" alt="Человек разглядывает экран компьютера" />
     <div class="container">
-      <img class="main-picture" src="styles/images/main.png" height="525px"
-        alt="Человек разглядывает экран компьютера" />
       <div class="count-text">
         <p class="left-text">
-          Мы, разработчики, часто сталкиваемся с проблемами, которые идут
-          вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
-          картину. Некоторые из этих проблем малозаметны, некоторые
-          существенны. Иногда с ними можно как-то справиться, а иногда, к
+          Мы, разработчики, часто сталкиваемся с проблемами, которые идут<br>
+          вразрез с нашей продуктивностью. Но мы часто игнорируем<br> целостную
+          картину. Некоторые из этих проблем малозаметны,<br> некоторые
+          существенны. Иногда с ними можно как-то справиться, а<br> иногда, к
           сожалению, нет.
         </p>
         <p class="right-text">
-          Вместе они формируют что-то вроде замкнутого цикла, и это может
-          привести к длительной потере продуктивности, багам и бесконечному
-          разочарованию.<br />
-          Если мы сможем минимизировать воздействие одного или нескольких из
-          этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+          Вместе они формируют что-то вроде замкнутого цикла, и это может<br>
+          привести к длительной потере продуктивности, багам и<br> бесконечному
+          разочарованию.<br /><br>
+          Если мы сможем минимизировать воздействие одного или<br> нескольких из
+          этих факторов, то сможем сломать и цикл, а остатки<br> нейтрализовать.
         </p>
       </div>
       <button class="button">
-        <a href="#">подробнее</a>
+        <a href="#navigation">подробнее</a>
       </button>
     </div>
   </header>
 
-  <main>
-    <section class="video-section">
-      <div class="container">
-        <div class="video-section-title">
-          <h2>
-            <span class="black-title">Что же это такое,</span><br />
-            <span class="brown-title">когнитивные искажения</span>
-          </h2>
-          <p>Что такое когнитивные искажения. Petrovna Channel</p>
-        </div>
-        <div class="inserting-video">
-          <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
-            allowfullscreen></iframe>
-        </div>
+  <section class="video-section">
+    <div class="container">
+      <div class="video-section-title">
+        <h2>
+          Что же это такое,<br /> <span class="brown-title">когнитивные искажения</span>
+        </h2>
+        <p>Что такое когнитивные искажения. Petrovna Channel</p>
       </div>
-    </section>
+      <div class="inserting-video">
+        <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
+  <main>
     <section id="navigation">
       <div class="container">
         <div class="navigation-section-title">
@@ -66,72 +63,92 @@
               которых стоит помнить</span></h4>
         </div>
         <div class="navigation-section-ikea">
-          <div class="card-content">
-            <p class="card-figure">1</p>
-            <h3 class="card-title"><span class="brown-title">Эффект ИКЕА</span></h3>
-            <p>Вы переоцениваете собственные<br> решения, и, как следствие,<br> недооцениваете решения других.</p>
-          </div>
+          <a href="#ikea-effect" class="link">
+            <div class="card-content">
+              <p class="card-figure">1</p>
+              <h3 class="card-title"><span class="brown-title">Эффект ИКЕА</span></h3>
+              <p> Вы переоцениваете собственные<br> решения, и, как следствие,<br> недооцениваете решения других.</p>
+            </div>
+          </a>
         </div>
 
         <div class="navigation-section-optimization">
-          <div class="card-content">
-            <p class="card-figure">2</p>
-            <h3 class="card-title"><span class="brown-title">Преждевременная оптимизация</span></h3>
-            <p>Вы оптимизируете что-то задолго до<br> того, как в этом появляется<br> необходимость.</p>
-          </div>
+          <a href="#premature-optimization" class="link">
+            <div class="card-content">
+              <p class="card-figure">2</p>
+              <h3 class="card-title"><span class="brown-title">Преждевременная оптимизация</span></h3>
+              <p>Вы оптимизируете что-то задолго до<br> того, как в этом появляется<br> необходимость.</p>
+            </div>
+          </a>
         </div>
 
         <div class="navigation-section-distortion">
-          <div class="card-content">
-            <p class="card-figure">3</p>
-            <h3 class="card-title"><span class="brown-title">Искажение новизны</span></h3>
-            <p>Вы даёте более высокую оценку тем событиям, которые произошли<br> недавно, и недооцениваете более<br>
-              старые.</p>
-          </div>
+          <a href="#" class="link">
+            <div class="card-content">
+              <p class="card-figure">3</p>
+              <h3 class="card-title"><span class="brown-title">Искажение новизны</span></h3>
+              <p>Вы даёте более высокую оценку тем событиям, которые произошли<br> недавно, и недооцениваете более<br>
+                старые.</p>
+            </div>
+          </a>
         </div>
 
         <div class="navigation-section-depreciation">
-          <div class="card-content">
-            <p class="card-figure">4</p>
-            <h3 class="card-title"><span class="brown-title">Гиперболическое обесценивание</span></h3>
-            <p>Вы гонитесь за немедленной<br> маленькой выгодой и игнорируете<br> более крупную, недоступную сейчас,<br>
-              но доступную в будущем.</p>
-          </div>
+          <a href="#" class="link">
+            <div class="card-content">
+              <p class="card-figure">4</p>
+              <h3 class="card-title"><span class="brown-title">Гиперболическое обесценивание</span></h3>
+              <p>Вы гонитесь за немедленной<br> маленькой выгодой и игнорируете<br> более крупную, недоступную
+                сейчас,<br> но доступную в будущем.</p>
+            </div>
+          </a>
         </div>
 
         <div class="navigation-section-mistake">
-          <div class="card-content">
-            <p class="card-figure">5</p>
-            <h3 class="card-title"><span class="brown-title">Ошибка планирования</span></h3>
-            <p>Неправильно рассчитывать время<br> необходимое для завершения задачи.</p>
-          </div>
+          <a href="#" class="link">
+            <div class="card-content">
+              <p class="card-figure">5</p>
+              <h3 class="card-title"><span class="brown-title">Ошибка планирования</span></h3>
+              <p>Неправильно рассчитывать время<br> необходимое для завершения задачи.</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
+  </main>
 
-    <section id="ikea-effect">
-      <div class="container">
-
-        <img src="styles/images/1.png" alt="">
-        <p class="count-1">Когнитивные искажения</p>
-        <h2>Эффект ИКЕА</h2>
-        <p class="count-2">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
-        <div class="ikea-effect-title">
-          <h5>Как проявляется</h5>
-        </div>
-        <div>
-          <p class="count-3">Когнитивное искажение называется так из-за того, что потребители<br> зачастую предпочитают
-            покупать товары,
-            которые они могут<br> собрать сами, а не уже собранные кем-то.</p>
-        </div>
-        <div class="count-4">
+  <section id="ikea-effect" class="bg-before">
+    <img src="styles/images/1.png" alt="Два человечка смотрят в монитор компьютера">
+    <div class="paragraph">
+      <p class="upper-right-one">Когнитивные искажения</p>
+      <h2>Эффект ИКЕА</h2>
+      <p class="upper-right-two">Вы переоцениваете собственные<br> решения, и, как следствие,<br> недооцениваете решения
+        других.
+      </p>
+    </div>
+    <div class="container">
+      <div class="ikea-effect-title">
+        <h5>Как проявляется</h5>
+      </div>
+      <div>
+        <p class="lower-left">Когнитивное искажение называется так из-за того, что потребители<br> зачастую предпочитают
+          покупать товары,
+          которые они могут<br> собрать сами, а не уже собранные кем-то.</p>
+      </div>
+      <div class="lower-right">
         <p>Мы склонны переоценивать наши собственные решения и<br> недооценивать решения других. Если вы когда-то
           работали в<br>
           компании, которая использовала тупой внутренний инструмент<br> вместо более удобного готового решения, вы
           понимаете, о чём я<br> говорю.</p>
-        </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <section id="premature-optimization">
+    <div class="container"></div>
+  </section>
+
+  <!--
     <section>
       <div class="container"></div>
     </section>
@@ -140,11 +157,7 @@
     </section>
     <section>
       <div class="container"></div>
-    </section>
-    <section>
-      <div class="container"></div>
-    </section>
-  </main>
+    </section> -->
   <footer>
     <div class="container"></div>
   </footer>

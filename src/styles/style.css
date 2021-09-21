@@ -25,22 +25,22 @@ body {
   font-size: 16px;
   color: #2a2626;
   line-height: 1.6em;
-}
-
-header, section, footer {
-  width: 1440px;
-  margin: 0 auto;
-  width: 1440px;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .container {
   padding: 100px 0;
   margin: 0 auto;
+  width: 1110px;
 }
 
 h1, h2, h3 {
   line-height: 1.2em;
   font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
 }
 
 h1 {
@@ -70,24 +70,12 @@ h5 {
   color: #fe8a02;
 }
 
-.black-title {
+/* .black-title {
   color: #2a2626;
-}
+} */
 
 .white-title {
   color: #f5f4f0;
-}
-
-/*#######################################################*/
-
-/* Разделы проекта */
-
-/* Шапка сайта */
-
-.header {
-  position: relative;
-  height: 914px;
-  background: #f5f4f0;
 }
 
 .bg-before:before {
@@ -102,16 +90,32 @@ h5 {
   content: "";
 }
 
+/*#######################################################*/
+
+/* Разделы проекта */
+
+/* Шапка сайта */
+
+.header {
+  position: relative;
+  height: 914px;
+  background: #f5f4f0;
+}
+
 header h1 {
   position: absolute;
-  left: 165px;
+  left: 273px;
   top: 100px;
 }
 
 .main-picture {
   position: absolute;
   top: 55px;
-  right: -270px;
+  left: 566px;
+}
+
+header img {
+  height: 525px;
   width: 1082px;
 }
 
@@ -120,26 +124,13 @@ header h1 {
   column-gap: 30px;
   width: 1110px;
   margin: 0 auto;
+  position: absolute;
+  top: 550px;
 }
 
 .count-text p {
   margin-top: 0;
-}
-
-.left-text {
-  position: absolute;
-  width: 540px;
-  height: 141px;
-  left: 165px;
-  top: 543px;
-}
-
-.right-text {
-  position: absolute;
-  width: 540px;
-  height: 186px;
-  left: 735px;
-  top: 539px;
+  break-inside: avoid;
 }
 
 .button {
@@ -148,10 +139,8 @@ header h1 {
   background: #fe8a02;
   width: 148px;
   height: 49px;
-  left: 735px;
+  left: 847px;
   top: 765px;
-  text-align: center;
-  text-transform: uppercase;
   border: none;
 }
 
@@ -162,37 +151,34 @@ header h1 {
   text-decoration: none;
 }
 
+.button:hover {
+  background: #EA7600;
+}
+
 /* ####################################################### */
 
 /* Секция с видео */
 
 .video-section {
   background: #fff;
-  height: 914px;
-}
-
-.video-section-title {
-  margin-top: 100px;
+  height: 795px;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .video-section-title h2 {
   margin-bottom: 27px;
 }
 
+.video-section-title p {
+  margin-bottom: 30px;
+}
+
 .inserting-video {
-  top: 329px;
-  text-align: center;
+  margin-top: 30px;
 }
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-.navigation-section {
-  background: #42413C;
-  height: 991px;
 }
 
 /* ####################################################### */
@@ -200,9 +186,6 @@ header h1 {
 /* Секция с навигацией */
 
 #navigation {
-  /* width: 1400px; */
-  /* margin: 0 auto; */
-  /* width: 1440px; */
   background: #42413c;
 }
 
@@ -225,6 +208,34 @@ header h1 {
   width: 350px;
   height: 323px;
   margin: 100px 30px 20px 0;
+}
+
+.link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.link:hover .card-figure {
+  color: #fff;
+}
+
+.link:hover .card-title {
+  color: #fff;
+}
+
+.link:hover span {
+  color: #fff;
+}
+
+.link:hover p {
+  color: #fff;
+}
+
+.link:hover {
+  background: #FE8A02;
+  height: 100%;
+  width: 100%;
 }
 
 .navigation-section-optimization {
@@ -259,10 +270,12 @@ header h1 {
   font-family: Neucha;
   line-height: 1;
   margin-bottom: 40px;
+  color: #42413C;
 }
 
 .card-content {
   padding: 24px;
+  color: #2A2626;
 }
 
 /* ####################################################### */
@@ -272,33 +285,44 @@ header h1 {
 #ikea-effect {
   background: #f5f4f0;
   height: 905px;
-}
-
-.container {
-  width: 1110px;
+  position: relative;
 }
 
 #ikea-effect .container {
   column-count: 2;
-  column-gap: 80px;
-  padding: 100px 0;
+  column-gap: 30px;
+  padding-top: 533px;
 }
 
-img {
+#ikea-effect img {
+  position: absolute;
+  top: 100px;
+  left: 272px;
   width: 578px;
   height: 434px;
   filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.count-1 {
-  font-size: 24px;
-  font-family: Neucha;
-  line-height: 29px;
-  color: #908d8b;
+.paragraph {
+  position: absolute;
+  top: 100px;
+  left: 881px;
+  width: 502px;
+  height: 120px;
 }
 
-.count-2 {
+.upper-right-one {
   font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #908D8B;
+}
+
+.upper-right-two {
+  font-family: Neucha;
+  font-style: normal;
   font-weight: normal;
   font-size: 34px;
   line-height: 41px;
@@ -325,7 +349,18 @@ img {
   padding-left: 10px;
 }
 
-.count-4 {
+.lower-left {
+  width: 540px;
+  height: 125px;
+}
+
+.lower-right {
+  width: 540px;
   height: 125px;
   break-inside: avoid;
 }
+
+/* ####################################################### */
+
+/* Секция "Преждевременная оптимизация" */
+
