@@ -429,6 +429,11 @@ header img {
   padding-left: 10px;
 }
 
+#premature-optimization .lower-left,
+#premature-optimization .lower-right {
+  color: #fff;
+}
+
 /* ####################################################### */
 
 /* Секция "Искажение новизны" */
@@ -456,5 +461,75 @@ header img {
 
 /* ####################################################### */
 
-/* Секция "Искажение новизны" */
+/* Секция "Гиперболическое обесценивание" */
 
+#hyperbolic-depreciation {
+  background: #B09A81;
+  min-height: 855px;
+  position: relative;
+}
+
+#hyperbolic-depreciation .premature-paragraph {
+  position: absolute;
+  left: 275px;
+  width: 502px;
+  height: 296px;
+  margin-top: 100px;
+}
+
+/* .top-first {
+  color: #D7CCC0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.premature-paragraph h2 {
+  color: #fff;
+}
+
+.top-second {
+  color: #fff;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 120%;
+} */
+
+#hyperbolic-depreciation img {
+  width: 578px;
+  height: 434px;
+  position: absolute;
+  left: 809px;
+  margin-top: 100px;
+}
+
+#hyperbolic-depreciation .container {
+  column-count: 2;
+  column-gap: 30px;
+  padding-top: 535px;
+}
+
+#hyperbolic-depreciation .lower-left,
+#hyperbolic-depreciation .lower-right {
+  color: #fff;
+}
+
+/* .premature-title {
+  height: 26px;
+  background: #fff;
+  column-span: all;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.premature-title h5 {
+  text-transform: uppercase;
+  color: #b09a81;
+  padding-left: 10px;
+} */
