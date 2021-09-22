@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -596,4 +596,112 @@ header img {
   height: 434px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+/* ####################################################### */
+
+/* Секция "Подвал" */
+
+.mailing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 190px;
+
+  padding-left: 55px;
+
+  color: #fff;
+
+  background: #42413c;
+}
+
+.mailing-title {
+  width: 50%;
+}
+
+.mailing-form {
+  width: 50%;
+  padding-right: 55px;
+}
+
+.label-title {
+  font-size: 18px;
+}
+
+.mailing-email {
+  display: flex;
+}
+
+.mailing-input {
+  width: 421px;
+  height: 50px;
+  padding-left: 15px;
+  border: none;
+
+  font-size: 13.1px;
+}
+
+.button-1 {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+  border: none;
+
+  background: #fe8a02;
+}
+
+.before::before {
+  position: absolute;
+  top: 13px;
+  left: 23px;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background: url("images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+
+  content: "";
+}
+
+.mailing-form p {
+  font-size: 12px;
+}
+
+.mailing-rules a {
+  color: #fff;
+}
+
+.copyright {
+  width: 50%;
+
+  margin: 0 auto;
+
+  margin-top: 60px;
+}
+
+.copyright-item-1 {
+  width: 289px;
+
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.copyright-item-2 {
+  width: 538px;
+
+  margin: 0 auto;
+  margin-bottom: 16px;
+
+  font-size: 14px;
+}
+
+.copyright-item-3 {
+  width: 259px;
+
+  margin: 0 auto;
 }
