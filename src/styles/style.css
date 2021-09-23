@@ -177,9 +177,9 @@ header img {
 
   padding: 12px 24px;
 
-  border: none;
-
   background: #fe8a02;
+
+  border: none;
 }
 
 .button a {
@@ -625,9 +625,10 @@ footer {
   width: 421px;
   height: 50px;
   padding-left: 15px;
-  border: none;
 
   font-size: 13.1px;
+
+  border: none;
 }
 
 .button-1 {
@@ -635,9 +636,10 @@ footer {
 
   width: 70px;
   height: 50px;
-  border: none;
 
   background: #fe8a02;
+
+  border: none;
 }
 
 .before::before {
