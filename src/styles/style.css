@@ -404,7 +404,7 @@ main {
 /* Секция "Преждевременная оптимизация" */
 
 #premature-optimization {
-  min-height: 855px;
+  height: 855px;
 
   background: #b09a81;
 }
@@ -432,6 +432,8 @@ main {
 }
 
 .top-second {
+  margin-top: 30px;
+
   color: #fff;
 
   font-weight: normal;
@@ -445,7 +447,7 @@ main {
 #premature-optimization img {
   position: absolute;
 
-  left: 534px;
+  left: 532px;
 
   width: 578px;
   height: 434px;
