@@ -31,7 +31,10 @@ body {
 }
 
 .container {
+  position: relative;
+
   max-width: 1110px;
+
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -125,9 +128,7 @@ h5 {
 /* Шапка сайта */
 
 .header {
-  position: relative;
-
-  height: 914px;
+  min-height: 914px;
 
   background: #f5f4f0;
 }
@@ -135,13 +136,12 @@ h5 {
 header h1 {
   position: absolute;
   top: 100px;
-  left: 273px;
 }
 
 .main-picture {
   position: absolute;
   top: 55px;
-  left: 566px;
+  left: 296px;
 }
 
 header img {
@@ -168,7 +168,7 @@ header img {
 .button {
   position: absolute;
   top: 765px;
-  left: 847px;
+  left: 570px;
 
   width: 148px;
   height: 49px;
@@ -196,7 +196,7 @@ header img {
 /* Секция с видео */
 
 .video-section {
-  height: 795px;
+  min-height: 795px;
 
   text-align: center;
 
@@ -204,7 +204,7 @@ header img {
 }
 
 .video-section-title h2 {
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .video-section-title p {
@@ -410,7 +410,7 @@ header img {
 #premature-optimization {
   position: relative;
 
-  min-height: 855px;
+  min-height: 960px;
 
   background: #b09a81;
 }
@@ -601,6 +601,10 @@ header img {
 /* ####################################################### */
 
 /* Секция "Подвал" */
+
+footer {
+  background: #fff;
+}
 
 .mailing {
   display: flex;
