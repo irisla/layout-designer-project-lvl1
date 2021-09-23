@@ -405,8 +405,8 @@ main {
 /* Секция "Преждевременная оптимизация" */
 
 #premature-optimization {
-  max-height: 960px;
-  min-height: 855px;
+  /* max-height: 960px; */
+  min-height: 900px;
 
   background: #b09a81;
 }
@@ -456,6 +456,9 @@ main {
 
   width: 578px;
   height: 434px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
 }
 
 .premature-wrap {
