@@ -28,6 +28,7 @@ body {
   font-family: OpenSans, sans-serif;
   font-style: normal;
   line-height: 1.6em;
+  box-sizing: border-box;
 }
 
 .container {
@@ -521,7 +522,7 @@ main {
 /* Секция "Гиперболическое обесценивание" */
 
 #hyperbolic-depreciation {
-  min-height: 937px;
+  min-height: 935px;
 
   background: #b09a81;
 }
@@ -534,6 +535,9 @@ main {
 
   width: 578px;
   height: 434px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
 }
 
 .hyperbolic-wrap {
