@@ -222,14 +222,11 @@ header img {
 /* ####################################################### */
 
 /* Секция с навигацией */
+
 main {
   background: #42413c;
   height: 991px;
 }
-
- /* #navigation {
-  background: #42413c;
-} */
 
 .wrap {
   display: flex;
@@ -340,25 +337,21 @@ main {
 
 /* Секция "Эффект ИКЕА" */
 
-/* #ikea-effect {
-  position: relative;
-
-  height: 905px;
+ #ikea-effect {
+  height: 960px;
 
   background: #f5f4f0;
 }
 
-#ikea-effect .container {
+ .ikea-wrap {
   padding-top: 533px;
 
   column-count: 2;
   column-gap: 30px;
-}
+} 
 
-#ikea-effect img {
+img {
   position: absolute;
-  top: 100px;
-  left: 272px;
 
   width: 578px;
   height: 434px;
@@ -369,10 +362,9 @@ main {
 .paragraph {
   position: absolute;
   top: 100px;
-  left: 881px;
+  left: 606px;
 
   width: 502px;
-  height: 120px;
 }
 
 .ikea-effect-title {
@@ -405,27 +397,23 @@ main {
 .lower-right {
   height: 125px;
   break-inside: avoid;
-} */
+} 
 
 /* ####################################################### */
 
 /* Секция "Преждевременная оптимизация" */
 
-/* #premature-optimization {
-  position: relative;
-
-  min-height: 960px;
+#premature-optimization {
+  min-height: 855px;
 
   background: #b09a81;
 }
 
-#premature-optimization .premature-paragraph {
+.premature-paragraph {
   position: absolute;
-  left: 275px;
 
   width: 502px;
   height: 296px;
-  margin-top: 100px;
 }
 
 .top-first {
@@ -457,15 +445,14 @@ main {
 #premature-optimization img {
   position: absolute;
 
-  left: 809px;
+  left: 534px;
 
   width: 578px;
   height: 434px;
 
-  margin-top: 100px;
 }
 
-#premature-optimization .container {
+.premature-wrap {
   padding-top: 535px;
 
   column-count: 2;
@@ -479,7 +466,6 @@ main {
 
   height: 26px;
 
-  margin-top: 100px;
   margin-bottom: 20px;
 
   column-span: all;
@@ -497,22 +483,20 @@ main {
 #premature-optimization .lower-left,
 #premature-optimization .lower-right {
   color: #fff;
-} */
+}
 
 /* ####################################################### */
 
 /* Секция "Искажение новизны" */
 
-/* #distortion-of-novelty {
-  position: relative;
-
+ #distortion-of-novelty {
   height: 880px;
 
   background: #f5f4f0;
 }
 
-#distortion-of-novelty .container {
-  padding-top: 533px;
+.distortion-wrap {
+  padding-top: 432px;
 
   column-count: 2;
   column-gap: 30px;
@@ -520,47 +504,38 @@ main {
 
 #distortion-of-novelty img {
   position: absolute;
-  top: 100px;
-  left: 272px;
 
   width: 578px;
   height: 434px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-} */
+} 
 
 /* ####################################################### */
 
 /* Секция "Гиперболическое обесценивание" */
 
-/* #hyperbolic-depreciation {
-  position: relative;
-
-  min-height: 855px;
+#hyperbolic-depreciation {
+  min-height: 937px;
 
   background: #b09a81;
 }
 
-#hyperbolic-depreciation .premature-paragraph {
+.premature-paragraph {
   position: absolute;
-  left: 275px;
 
   width: 502px;
-  height: 296px;
-  margin-top: 100px;
 }
 
 #hyperbolic-depreciation img {
   position: absolute;
-  left: 809px;
+  left: 534px;
 
   width: 578px;
   height: 434px;
-
-  margin-top: 100px;
 }
 
-#hyperbolic-depreciation .container {
+.hyperbolic-wrap {
   padding-top: 535px;
 
   column-count: 2;
@@ -571,21 +546,19 @@ main {
 #hyperbolic-depreciation .lower-right {
   color: #fff;
 }
- */
+ 
 /* ####################################################### */
 
 /* Секция "Ошибка планирования" */
 
-/* #errors-in-planning {
-  position: relative;
-
-  height: 880px;
+#errors-in-planning {
+  height: 919px;
 
   background: #f5f4f0;
 }
 
-#errors-in-planning .container {
-  padding-top: 533px;
+.errors-wrap {
+  padding-top: 435px;
 
   column-count: 2;
   column-gap: 30px;
@@ -593,23 +566,21 @@ main {
 
 #errors-in-planning img {
   position: absolute;
-  top: 100px;
-  left: 272px;
 
   width: 578px;
   height: 434px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-} */
+}
 
 /* ####################################################### */
 
 /* Секция "Подвал" */
 
-/* footer {
+footer {
   background: #fff;
 }
-
+ 
 .mailing {
   display: flex;
   align-items: center;
@@ -712,4 +683,4 @@ main {
   width: 259px;
 
   margin: 0 auto;
-} */
+} 
