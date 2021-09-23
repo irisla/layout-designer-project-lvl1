@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url(fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-family: Neucha;
-  src: url(fonts/Neucha-Regular.ttf);
+  src: url(../fonts/Neucha-Regular.ttf);
 }
 
 * {
@@ -95,7 +95,7 @@ h5 {
   width: 100%;
   height: 100%;
 
-  background: url("images/background.png");
+  background: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -283,6 +283,10 @@ main {
   color: #fff;
 }
 
+.mailing-form p {
+  font-size: 12px;
+}
+
 .link:hover p {
   color: #fff;
 }
@@ -404,7 +408,6 @@ main {
 /* Секция "Преждевременная оптимизация" */
 
 #premature-optimization {
-  /* max-height: 960px; */
   min-height: 900px;
 
   background: #b09a81;
@@ -649,7 +652,7 @@ footer {
   width: 24px;
   height: 24px;
 
-  background: url("images/send.svg");
+  background: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -657,9 +660,9 @@ footer {
   content: "";
 }
 
-.mailing-form p {
+/* .mailing-form p {
   font-size: 12px;
-}
+} */
 
 .mailing-rules a {
   color: #fff;
