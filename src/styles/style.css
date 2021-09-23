@@ -22,13 +22,14 @@ html {
 }
 
 body {
+  box-sizing: border-box;
+
   color: #2a2626;
   font-weight: normal;
   font-size: 16px;
   font-family: OpenSans, sans-serif;
   font-style: normal;
   line-height: 1.6em;
-  box-sizing: border-box;
 }
 
 .container {
@@ -450,15 +451,14 @@ main {
 #premature-optimization img {
   position: absolute;
 
-  margin-bottom: 100px;
-
   left: 532px;
 
   width: 578px;
   height: 434px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-bottom: 100px;
 
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .premature-wrap {
@@ -476,7 +476,7 @@ main {
   height: 27px;
 
   margin-bottom: 20px;
-  
+
   column-span: all;
 
   background: #fff;
@@ -532,15 +532,15 @@ main {
 
 #hyperbolic-depreciation img {
   position: absolute;
-  left: 531px;
 
-  margin-bottom: 100px;
+  left: 531px;
 
   width: 578px;
   height: 434px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-bottom: 100px;
 
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .hyperbolic-wrap {
@@ -575,10 +575,10 @@ main {
 #errors-in-planning img {
   position: absolute;
 
-  margin-bottom: 100px;
-
   width: 578px;
   height: 434px;
+
+  margin-bottom: 100px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
