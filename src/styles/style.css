@@ -404,13 +404,14 @@ main {
 /* Секция "Преждевременная оптимизация" */
 
 #premature-optimization {
-  height: 855px;
+  height: 960px;
 
   background: #b09a81;
 }
 
 .premature-paragraph {
   position: absolute;
+  top: 100px;
 
   width: 502px;
   height: 296px;
@@ -447,14 +448,14 @@ main {
 #premature-optimization img {
   position: absolute;
 
-  left: 532px;
+  left: 533px;
 
   width: 578px;
   height: 434px;
 }
 
 .premature-wrap {
-  padding-top: 535px;
+  padding-top: 536px;
 
   column-count: 2;
   column-gap: 30px;
@@ -467,8 +468,9 @@ main {
 
   height: 26px;
 
+  margin-top: 100px;
   margin-bottom: 20px;
-
+  
   column-span: all;
 
   background: #fff;
