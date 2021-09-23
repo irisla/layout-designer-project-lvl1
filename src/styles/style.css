@@ -451,7 +451,7 @@ main {
 
   margin-bottom: 100px;
 
-  left: 533px;
+  left: 532px;
 
   width: 578px;
   height: 434px;
@@ -469,7 +469,7 @@ main {
 
   align-items: center;
 
-  height: 26px;
+  height: 27px;
 
   margin-bottom: 20px;
   
@@ -501,7 +501,7 @@ main {
 }
 
 .distortion-wrap {
-  padding-top: 432px;
+  padding-top: 534px;
 
   column-count: 2;
   column-gap: 30px;
@@ -528,7 +528,9 @@ main {
 
 #hyperbolic-depreciation img {
   position: absolute;
-  left: 534px;
+  left: 531px;
+
+  margin-bottom: 100px;
 
   width: 578px;
   height: 434px;
@@ -557,7 +559,7 @@ main {
 }
 
 .errors-wrap {
-  padding-top: 435px;
+  padding-top: 534px;
 
   column-count: 2;
   column-gap: 30px;
@@ -565,6 +567,8 @@ main {
 
 #errors-in-planning img {
   position: absolute;
+
+  margin-bottom: 100px;
 
   width: 578px;
   height: 434px;
