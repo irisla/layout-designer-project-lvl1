@@ -196,7 +196,7 @@ header img {
 /* Секция с видео */
 
 .video-section {
-  min-height: 795px;
+  height: 798px;
 
   text-align: center;
 
@@ -222,12 +222,16 @@ header img {
 /* ####################################################### */
 
 /* Секция с навигацией */
-
-#navigation {
+main {
   background: #42413c;
+  height: 991px;
 }
 
-#navigation .container {
+ /* #navigation {
+  background: #42413c;
+} */
+
+.wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -330,13 +334,13 @@ header img {
   padding: 24px;
 
   color: #2a2626;
-}
+} 
 
 /* ####################################################### */
 
 /* Секция "Эффект ИКЕА" */
 
-#ikea-effect {
+/* #ikea-effect {
   position: relative;
 
   height: 905px;
@@ -401,13 +405,13 @@ header img {
 .lower-right {
   height: 125px;
   break-inside: avoid;
-}
+} */
 
 /* ####################################################### */
 
 /* Секция "Преждевременная оптимизация" */
 
-#premature-optimization {
+/* #premature-optimization {
   position: relative;
 
   min-height: 960px;
@@ -493,13 +497,13 @@ header img {
 #premature-optimization .lower-left,
 #premature-optimization .lower-right {
   color: #fff;
-}
+} */
 
 /* ####################################################### */
 
 /* Секция "Искажение новизны" */
 
-#distortion-of-novelty {
+/* #distortion-of-novelty {
   position: relative;
 
   height: 880px;
@@ -523,13 +527,13 @@ header img {
   height: 434px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
+} */
 
 /* ####################################################### */
 
 /* Секция "Гиперболическое обесценивание" */
 
-#hyperbolic-depreciation {
+/* #hyperbolic-depreciation {
   position: relative;
 
   min-height: 855px;
@@ -567,12 +571,12 @@ header img {
 #hyperbolic-depreciation .lower-right {
   color: #fff;
 }
-
+ */
 /* ####################################################### */
 
 /* Секция "Ошибка планирования" */
 
-#errors-in-planning {
+/* #errors-in-planning {
   position: relative;
 
   height: 880px;
@@ -596,13 +600,13 @@ header img {
   height: 434px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
+} */
 
 /* ####################################################### */
 
 /* Секция "Подвал" */
 
-footer {
+/* footer {
   background: #fff;
 }
 
@@ -708,4 +712,4 @@ footer {
   width: 259px;
 
   margin: 0 auto;
-}
+} */
